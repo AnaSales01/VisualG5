@@ -1,0 +1,22 @@
+algoritmo "Tabuada"
+// Função : O usuário insere um número qualquer o programa retorna a tabuada do número.
+// Autor : Ana Claudia Correa da Silva
+// Data : 21/10/2020
+// Seção de Declarações 
+var
+
+ X,T,cont: inteiro
+
+inicio
+
+escreval("")
+escreval("Digite um número qualquer (Inteiro): ")
+leia(x)
+escreval("")
+para cont de 1 ate 10 passo 1 faca
+T <- cont * x
+escreva("")
+escreval(T)
+fimpara
+
+fimalgoritmo

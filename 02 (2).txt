@@ -1,0 +1,49 @@
+algoritmo "ProgramaTemperatura"
+// Função : O usuário insere as temperaturas e o programa retorna a média, as maiores e menores temperaturas.
+// Autor : Ana Cláudia Correa da Silva
+// Data : 21/10/2020
+// Seção de Declarações
+var
+
+D: vetor [1..31] de real
+I: inteiro
+S,M,MT: real
+
+inicio
+
+escreval("")
+escreval("Seja bem-vindo(a) ao Programa Temperatura!")
+S <- 0
+para I de 1 ate 31 passo 1 faca
+   escreval("")
+   escreval("Digite as temperaturas: ")
+   leia(D[I])
+   escreval("")
+   S <- S + D[I]
+fimpara
+M <- S/31
+limpatela
+escreval("A média das temperaturas é: ",M)
+escreval("______________________________________________________________________")
+escreval("")
+escreval("Essas são as temperaturas menores que a média")
+para i de 1 ate 31 passo 1 faca
+   se D[I] < M entao
+      escreval("")
+      escreval(D[I])
+   fimse
+fimpara
+escreval("")
+escreval("______________________________________________________________________")
+escreval("Essas são as temperaturas superiores a média: ")
+para i de 1 ate 31 passo 1 faca
+   se D[I] > M entao
+      escreval("")
+      escreval(D[I])
+   fimse
+fimpara
+ escreval("_____________________________________________________________________")
+ escreval("")
+ escreval("Obrigada! Volte Sempre!")
+
+fimalgoritmo

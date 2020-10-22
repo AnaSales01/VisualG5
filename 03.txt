@@ -1,0 +1,35 @@
+algoritmo "ProgramaCurso"
+// Função : O usuário insere o nome do curso e o valor do curso.
+// Autor : Ana Claudia Correa da Silva
+// Data : 21/10/2020
+// Seção de Declarações 
+var
+
+N: vetor [1..25] de caractere
+I: inteiro
+C: vetor [1..25] de real
+S,M,menor,D: real
+
+inicio
+
+ S <- 0
+ para I de 1 ate 25 passo 1 faca
+ escreval("Digite o nome do curso: ")
+ leia(N[I])
+ escreval("Digite o valor do curso: ")
+ leia(C[I])
+ S <- S + C[I]
+ fimpara
+  M <- S/25
+ escreval("Esse é o curso mais barato: ")
+ menor <- C[1]
+ para I de 2 ate 25 passo 1 faca
+ menor <- C[1]
+ se menor > C[I] entao
+ escreval(N[I])
+ fimse
+ fimpara
+ D <- M - menor
+ escreval("Essa é a diferença do menor valor e da média: ",D)
+
+fimalgoritmo
