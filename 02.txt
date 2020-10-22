@@ -1,0 +1,419 @@
+algoritmo "Temperatura"
+// Função : O usuário insere 31 temperatura e o programa retorna a média, a maior temperatura e a menor temperatura.
+// Autor :  Ana Claudia Correa da Silva
+// Data : 20/10/2020
+// Seção de Declarações
+var
+
+ D1,D2,D3,D4,D5,D6,D7,D8,D9,D10,D11,D12,D13,D14,D15,D16,D17,D18,D19,D20,D21,D22,D23,D24,D25,D26,D27,D28,D29,D30,D31,M: real
+
+inicio
+escreval("")
+escreval("Insira a temperatura do dia 1: ")
+leia(D1)
+escreval("")
+escreval("Insira a temperatura do dia 2: ")
+leia(D2)
+escreval("")
+escreval("Insira a temperatura do dia 3: ")
+leia(D3)
+escreval("")
+escreval("Insira a temperatura do dia 4: ")
+leia(D4)
+escreval("")
+escreval("Insira a temperatura do dia 5: ")
+leia(D5)
+escreval("")
+escreval("Insira a temperatura do dia 6: ")
+leia(D6)
+escreval("")
+escreval("Insira a temperatura do dia 7: ")
+leia(D7)
+escreval("")
+escreval("Insira a temperatura do dia 8: ")
+leia(D8)
+escreval("")
+escreval("Insira a temperatura do dia 9: ")
+leia(D9)
+escreval("")
+escreval("Insira a temperatura do dia 10: ")
+leia(D10)
+escreval("")
+escreval("Insira a temperatura do dia 11: ")
+leia(D11)
+escreval("")
+escreval("Insira a temperatura do dia 12: ")
+leia(D12)
+escreval("")
+escreval("Insira a temperatura do dia 13: ")
+leia(D13)
+escreval("")
+escreval("Insira a temperatura do dia 14: ")
+leia(D14)
+escreval("")
+escreval("Insira a temperatura do dia 15: ")
+leia(D15)
+escreval("")
+escreval("Insira a temperatura do dia 16: ")
+leia(D16)
+escreval("")
+escreval("Insira a temperatura do dia 17: ")
+leia(D17)
+escreval("")
+escreval("Insira a temperatura do dia 18: ")
+leia(D18)
+escreval("")
+escreval("Insira a temperatura do dia 19: ")
+leia(D19)
+escreval("")
+escreval("Insira a temperatura do dia 20: ")
+leia(D20)
+escreval("")
+escreval("Insira a temperatura do dia 21: ")
+leia(D21)
+escreval("")
+escreval("Insira a temperatura do dia 22: ")
+leia(D22)
+escreval("")
+escreval("Insira a temperatura do dia 23: ")
+leia(D23)
+escreval("")
+escreval("Insira a temperatura do dia 24: ")
+leia(D24)
+escreval("")
+escreval("Insira a temperatura do dia 25: ")
+leia(D25)
+escreval("")
+escreval("Insira a temperatura do dia 26: ")
+leia(D26)
+escreval("")
+escreval("Insira a temperatura do dia 27: ")
+leia(D27)
+escreval("")
+escreval("Insira a temperatura do dia 28: ")
+leia(D28)
+escreval("")
+escreval("Insira a temperatura do dia 29: ")
+leia(D29)
+escreval("")
+escreval("Insira a temperatura do dia 30: ")
+leia(D30)
+escreval("")
+escreval("Insira a temperatura do dia 31: ")
+leia(D31)
+M <- (D1+D2+D3+D4+D5+D6+D7+D8+D9+D10+D11+D12+D13+D14+D15+D16+D17+D18+D19+D20+D21+D22+D23+D24+D25+D26+D27+D28+D29+D30+D31)/31
+limpatela
+escreval("")
+escreval("A temperatura média é: ",M)
+se D1 < M entao
+escreval("")
+escreval("A menor temperatura é dia 1: ",D1)
+senao
+se D2 < M   entao
+escreval("")
+escreval("A menor temperatura é dia 2: ",D2)
+senao
+se D3 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 3: ",D3)
+senao
+se D4 < M entao
+escreval("")
+escreval("A menor temperatura é dia 4: ",D4)
+senao
+se D5 < M entao
+escreval("")
+escreval("A menor temperatura é dia 5: ",D5)
+senao
+se D6 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 6: ",D6)
+senao
+se D7 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 7: ",D7)
+senao
+se D8 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 8: ",D8)
+senao
+se D9 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 9: ",D9)
+senao
+se D10 < M entao
+escreval("")
+escreval("A menor temperatura é dia 10: ",D10)
+senao
+se D11 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 11: ",D11)
+senao
+se D12 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 12: ",D12)
+senao
+se D13 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 13: ",D13)
+senao
+se D14 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 14: ",D15)
+senao
+se D15 < M entao
+escreval("")
+escreval("A menor temperatura é dia 15: ",D15)
+senao
+se D16 < M entao
+escreval("")
+escreval("A menor temperatura é dia 16: ",D16)
+senao
+se D17 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 17: ",D17)
+senao
+se D18 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 18: ",D18)
+senao
+se D19 < M entao
+escreval("")
+escreval("A menor temperatura é dia 19: ",D19)
+senao
+se D20 < M entao
+escreval("")
+escreval("A menor temperatura é dia 20: ",D20)
+senao
+se D21 < M entao
+escreval("")
+escreval("A menor temperatura é dia 21: ",D21)
+senao
+se D22 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 22: ",D22)
+senao
+se D23 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 23: ",D23)
+senao
+se D24 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 24: ",D24)
+senao
+se D25 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 25: ",D25)
+senao
+se D26 < M  entao
+escreval("")
+escreval("A menor temperatura é dia 26: ",D26)
+senao
+se D27 < M entao
+escreval("")
+escreval("A menor temperatura é dia 27: ",D27)
+senao
+se D28 < M entao
+escreval("")
+escreval("A menor temperatura é dia 28: ",D28)
+senao
+se D29 < M entao
+escreval("")
+escreval("A menor temperatura é dia 29: ",D29)
+senao
+se D30 < M entao
+escreval("")
+escreval("A menor temperatura é dia 30: ",D30)
+senao
+se D31 < M entao
+escreval("")
+escreval("A menor temperatura é dia 31: ",D31)
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+se D1 > M entao
+escreval("")
+escreval("A maior temperatura é dia 1: ",D1)
+senao
+se D2 > M   entao
+escreval("")
+escreval("A maior temperatura é dia 2: ",D2)
+senao
+se D3 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 3: ",D3)
+senao
+se D4 > M entao
+escreval("")
+escreval("A maior temperatura é dia 4: ",D4)
+senao
+se D5 > M entao
+escreval("")
+escreval("A maior temperatura é dia 5: ",D5)
+senao
+se D6 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 6: ",D6)
+senao
+se D7 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 7: ",D7)
+senao
+se D8 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 8: ",D8)
+senao
+se D9 > M  entao
+escreval("")
+escreval("A menor temperatura é dia 9: ",D9)
+senao
+se D10 < M entao
+escreval("")
+escreval("A maior temperatura é dia 10: ",D10)
+senao
+se D11 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 11: ",D11)
+senao
+se D12 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 12: ",D12)
+senao
+se D13 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 13: ",D13)
+senao
+se D14 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 14: ",D15)
+senao
+se D15 > M entao
+escreval("")
+escreval("A maior temperatura é dia 15: ",D15)
+senao
+se D16 > M entao
+escreval("")
+escreval("A maior temperatura é dia 16: ",D16)
+senao
+se D17 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 17: ",D17)
+senao
+se D18 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 18: ",D18)
+senao
+se D19 > M entao
+escreval("")
+escreval("A maior temperatura é dia 19: ",D19)
+senao
+se D20 > M entao
+escreval("")
+escreval("A maior temperatura é dia 20: ",D20)
+senao
+se D21 > M entao
+escreval("")
+escreval("A maior temperatura é dia 21: ",D21)
+senao
+se D22 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 22: ",D22)
+senao
+se D23 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 23: ",D23)
+senao
+se D24 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 24: ",D24)
+senao
+se D25 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 25: ",D25)
+senao
+se D26 > M  entao
+escreval("")
+escreval("A maior temperatura é dia 26: ",D26)
+senao
+se D27 > M entao
+escreval("")
+escreval("A maior temperatura é dia 27: ",D27)
+senao
+se D28 > M entao
+escreval("")
+escreval("A maior temperatura é dia 28: ",D28)
+senao
+se D29 > M entao
+escreval("")
+escreval("A maior temperatura é dia 29: ",D29)
+senao
+se D30 > M entao
+escreval("")
+escreval("A maior temperatura é dia 30: ",D30)
+senao
+se D31 > M entao
+escreval("")
+escreval("A maior temperatura é dia 31: ",D31)
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+ fimse
+
+fimalgoritmo
+
+
